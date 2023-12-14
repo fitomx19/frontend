@@ -10,8 +10,14 @@ const Header = () => {
           <p className="text-sm">Proyecto Final Modelos Econometricos</p>
         </div>
         <div className="flex items-center space-x-4">
+          <Link href="/team">
+            <p className="text-white">Our Team</p>
+          </Link>
           <Link href="/about">
             <p className="text-white">About Us</p>
+          </Link>
+          <Link href="/information">
+            <p className="text-white">More Information</p>
           </Link>
           <Link href="/">
             <p className="text-white">Regresar</p>
